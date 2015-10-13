@@ -23,7 +23,7 @@ class ComposeViewController: UIViewController {
     
     @IBAction func onBackButton(sender: AnyObject) {
 
-        self.dismissViewControllerAnimated(true, completion: {})
+        self.dismissViewControllerAnimated(false, completion: {})
         
     }
 
